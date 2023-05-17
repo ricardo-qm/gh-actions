@@ -11,5 +11,5 @@ jobs:
             - name: 'Auto-assign PR'
               uses: pozil/auto-assign-issue@v1
               with:
-                  assignees: deraowl
+                  assignees: ricardo-qm
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
