@@ -8,8 +8,4 @@ jobs:
     auto-assign:
         runs-on: ubuntu-latest
         steps:
-            - name: 'Auto-assign issue'
-              uses: pozil/auto-assign-issue@v1
-              with:
-                  assignees: ricardo-qm
-                  numOfAssignee: 1
+            - run: echo "Hola Mundo!"
