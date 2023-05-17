@@ -1,4 +1,4 @@
-name: GH Actions
+name: Issue assignment
 
 on:
     issues:
@@ -8,8 +8,8 @@ jobs:
     auto-assign:
         runs-on: ubuntu-latest
         steps:
-            - name: 'Auto-assign PR'
+            - name: 'Auto-assign issue'
               uses: pozil/auto-assign-issue@v1
               with:
                   assignees: ricardo-qm
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  numOfAssignee: 1
